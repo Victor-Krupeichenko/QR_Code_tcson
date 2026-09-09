@@ -40,7 +40,7 @@ class QrcodeGenerate:
         """
         Сохраняет картинку
         """
-        self.img.save("Qr-code-Loev-tcson.png")
+        self.img.save("QR-code-Loev-tcson.png")
 
     def main(self):
         """
