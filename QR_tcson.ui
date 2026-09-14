@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>650</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>650</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>650</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Monotype Corsiva</family>
+    <pointsize>24</pointsize>
+    <italic>true</italic>
+    <bold>false</bold>
+    <kerning>false</kerning>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Лоевский территориальный центр – создать QR-код</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="loev_tcson.qrc">
+    <normaloff>:/newPrefix/tcson.ico</normaloff>:/newPrefix/tcson.ico</iconset>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LayoutDirection::LeftToRight</enum>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/newPrefix/background.jpg);
+
+
+</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>631</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>14</pointsize>
+     <italic>true</italic>
+     <bold>false</bold>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#textEdit {
+    color: #FFFFFF;
+    font-weight: normal;
+	outline: none;
+    background-color: rgba(57, 30, 241, 0.1);
+    border: none;
+    font-weight: normal;
+    font-style: italic;
+	color: rgb(0, 0, 0);
+    background: transparent;
+}
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>Сюда текст...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>400</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Monotype Corsiva</family>
+     <pointsize>14</pointsize>
+     <italic>false</italic>
+     <bold>true</bold>
+     <kerning>true</kerning>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#btn {
+	padding: 0 0 0 0;
+    border-radius: 10px;
+    color: rgb(174, 29, 228);
+    font: 14pt &quot;Monotype Corsiva&quot;;
+    font-weight: bold;
+    background: transparent;
+}
+
+#btn:hover {
+    color: rgb(46, 139, 87);	
+}</string>
+   </property>
+   <property name="text">
+    <string>Создать QR-КОД</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelMyName">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>410</y>
+     <width>161</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font: 14pt &quot;Mistral&quot;;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    /* ПОЛНОСТЬЮ УБИРАЕТ ФОН (делает его прозрачным) */
+    background: transparent;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Victor Krupeichenko</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="loev_tcson.qrc"/>
+ </resources>
+ <connections/>
+</ui>
