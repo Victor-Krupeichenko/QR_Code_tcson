@@ -59,7 +59,7 @@ class Ui_Dialog(object):
 "    border: none;\n"
 "    font-weight: normal;\n"
 "    font-style: italic;\n"
-"	color: rgb(0, 0, 0);\n"
+"	color: rgb(255, 255, 255);\n"
 "    background: transparent;\n"
 "}\n"
 "")
